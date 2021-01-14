@@ -35,6 +35,9 @@ import pkg_resources
 
 from exceptions.invalid_image import InvalidImage
 from network.factory import NetworkFactory
+import sys
+
+sys.path.append("./MTCNN_Portable")
 
 __author__ = "Iván de Paz Centeno"
 

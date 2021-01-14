@@ -22,9 +22,13 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+import sys
 
-from mtcnn.mtcnn import MTCNN
+sys.path.append("./MTCNN_Portable")
 
+from mtcnn import MTCNN
+import exceptions
+import network
 
 __author__ = "Iván de Paz Centeno"
 __version__= "0.1.0"
