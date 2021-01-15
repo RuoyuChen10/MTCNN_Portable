@@ -26,9 +26,6 @@ import sys
 
 sys.path.append("./MTCNN_Portable")
 
-from mtcnn import MTCNN
-import exceptions
-import network
-
 __author__ = "Iván de Paz Centeno"
+
 __version__= "0.1.0"
